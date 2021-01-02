@@ -78,8 +78,10 @@ namespace secplugs {
             if (res.getStatus() == Poco::Net::HTTPResponse::HTTP_OK) {
                 std::stringstream res_data;
                 Poco::StreamCopier::copyStream(rs, res_data);
+                int scan_score = extractScore(res_data.str());
                 // score <= 20 are malicious
-                if (extractScore(res_data.str()) <= 20) {
+                std::cout << "Scan Score: " << scan_score << '\n';
+                if (scan_score <= 20) {
                     return false;
                 } else {
                     return true;
@@ -183,7 +185,6 @@ namespace secplugs {
             form.addPart(key, new Poco::Net::StringPartSource(val));
         }
         form.addPart("file", new Poco::Net::FilePartSource(file, sha256, "application/octetstream"));
-        std::cout << "File added: " << file << '\n';
         Poco::Net::HTTPRequest req(Poco::Net::HTTPRequest::HTTP_POST, uri.getPath());
         req.add("x-api-key", cfg.get_api_key());
         req.add("Host", uri.getHost());
