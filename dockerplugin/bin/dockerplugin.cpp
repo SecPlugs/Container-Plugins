@@ -1,7 +1,3 @@
-//
-// Created by bala on 31/12/20.
-//
-
 #include "dockerplugin.h"
 
 namespace secplugs {

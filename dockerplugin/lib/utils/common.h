@@ -1,7 +1,3 @@
-//
-// Created by bala on 27/12/20.
-//
-
 #ifndef SECPLUGS_COMMON_COMMON_H
 #define SECPLUGS_COMMON_COMMON_H
 

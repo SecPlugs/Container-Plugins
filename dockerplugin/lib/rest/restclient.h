@@ -1,7 +1,3 @@
-//
-// Created by bala on 26/12/20.
-//
-
 #ifndef SECPLUGS_COMMON_RESTCLIENT_H
 #define SECPLUGS_COMMON_RESTCLIENT_H
 

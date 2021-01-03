@@ -1,9 +1,4 @@
 #include <utility>
-
-//
-// Created by bala on 27/12/20.
-//
-
 #ifndef SECPLUGS_COMMON_CONFIGLOADER_H
 #define SECPLUGS_COMMON_CONFIGLOADER_H
 
