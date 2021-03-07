@@ -1,0 +1,8 @@
+{
+  "watchers": [
+    "/lib",
+    "/lib64",
+    "/var/lib",
+    "/etc/"
+  ]
+}

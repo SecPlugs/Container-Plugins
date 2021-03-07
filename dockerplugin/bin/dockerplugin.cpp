@@ -16,19 +16,20 @@ namespace secplugs {
         Poco::Util::ServerApplication::defineOptions(options);
         options.addOption(
                 Poco::Util::Option("config", "c", "The configuration JSON" )
-                .required(true)
+                .required(false)
                 .repeatable(false)
                 .argument("configfile", true)
                 );
     }
 
     void dockerplugin::handleOption(const std::string &name, const std::string &value) {
+        Poco::Util::ServerApplication::handleOption(name, value);
         this->config().setString(name, value);
     }
 
     void dockerplugin::initialize(Poco::Util::ServerApplication &app) {
         std::cout << "Init App" << '\n';
-        this->config().setString("config", "");
+        this->config().setString("config", "/etc/secplugs/config.json");
         this->loadConfiguration();
         Poco::Util::ServerApplication::initialize(app);
     }

@@ -26,7 +26,6 @@ This uses a very minimal configuration that is just enough. The list of director
     "/var/lib",
     "/etc/"
   ],
-  "vendor": "<preferred vendor from vendor list in portal>",
   "api_key": "secplugs-api-key-from-portal"
 }
 ....
