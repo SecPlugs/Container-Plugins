@@ -1,0 +1,22 @@
+[
+        {
+                "name" : "linux_file_watcher",
+                "type" : "generic",
+                "title" : "Linux File Watcher",
+                "description" : "A docker ready second opinion lazy on access scanner to scan for malware inside docker containers",
+                "summary_html" : "@.secplugs/plugins/linux_file_watcher/summary.html",
+                "detail_html" : "@.secplugs/plugins/linux_file_watcher/detail.html",
+                "small_image" : "@.secplugs/plugins/linux_file_watcher/small_image.png",
+                "normal_image" : "@.secplugs/plugins/linux_file_watcher/normal_image.png"
+        },
+        {
+                "name" : "docker_file_watcher",
+                "type" : "generic",
+                "title" : "Docker File Watcher",
+                "description" : "A docker ready second opinion lazy on access scanner to scan for malware inside docker containers",
+                "summary_html" : "@.secplugs/plugins/docker_file_watcher/summary.html",
+                "detail_html" : "@.secplugs/plugins/docker_file_watcher/detail.html",
+                "small_image" : "@.secplugs/plugins/docker_file_watcher/small_image.png",
+                "normal_image" : "@.secplugs/plugins/docker_file_watcher/normal_image.png"
+        }
+]

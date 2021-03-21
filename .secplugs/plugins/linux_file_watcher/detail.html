@@ -1,0 +1,8 @@
+<h3>Linux File Watcher</h3>
+<p>
+Linux file watcher is an inotify-based daemon that starts at system start up and keeps running as a system service, via systemd on most distributions.
+At startup, the daemon reads the configuration file and initialises the process with all the directories listed in the configuration. The daemon monitors for files created in or moved into the configured directories. 
+When it detects a file, the file is sent to secplugs for a score based scan. If this scan detects this file to be malicious, the file is removed from the filesystem.
+This uses a very minimal configuration that is just enough. The list of directories to monitor is the only mandatory configuration.
+Other optional configurations include the vendor to use for scanning the files, and the API key.
+</p>
