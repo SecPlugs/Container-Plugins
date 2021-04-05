@@ -1,7 +1,8 @@
 [
         {
                 "name" : "linux_file_watcher",
-                "type" : "generic",
+                "type" : "file_watcher",
+                "cfgtypes" : "linux_file_watcher_dirs",
                 "title" : "Linux File Watcher",
                 "created_by" : "BenignB@secplugs.com",
                 "description" : "A docker ready second opinion lazy on access scanner to scan for malware inside docker containers",
@@ -12,7 +13,8 @@
         },
         {
                 "name" : "docker_file_watcher",
-                "type" : "generic",
+                "type" : "file_watcher",
+                "cfgtypes" : "linux_file_watcher_dirs",
                 "title" : "Docker File Watcher",
                 "created_by" : "BenignB@secplugs.com",
                 "description" : "A docker ready second opinion lazy on access scanner to scan for malware inside docker containers",
