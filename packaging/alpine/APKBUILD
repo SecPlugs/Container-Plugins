@@ -1,0 +1,14 @@
+pkgname=secplugs-container-plugin
+pkgver=0.1
+pkgrel=0
+pkgdesc="Secplugs plugin for docker containers"
+url="https://secplugs.com/"
+arch="x86_64"
+license="EULA"
+depends="poco"
+depends_dev="ssl-dev"
+makedepends="$depends_dev"
+install=""
+subpackages=""
+source="http://packages.secplugs.com/alpine"
+builddir="$srcdir/$pkgname-$pkgver"
