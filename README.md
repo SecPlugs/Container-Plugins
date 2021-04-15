@@ -3,8 +3,8 @@
 This repo is intended for linux related plugins
 
 See these specific areas for particular plugins installation and usage info
-[Docker File Watcher](https://secplugs.github.io/Container-Plugins/docs/containers/)
-[Linux File Watcher](https://secplugs.github.io/Container-Plugins/docs/linux/)
+[Docker File Watcher](https://secplugs.github.io/Container-Plugins/docs/containers/)  
+[Linux File Watcher](https://secplugs.github.io/Container-Plugins/docs/linux/)  
 
 ## The Docker Plugin
 

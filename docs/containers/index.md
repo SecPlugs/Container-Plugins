@@ -10,7 +10,7 @@ title: Secplugs Docker File Watcher
 ## Get Started
 
 ## How To
-{% include_relative HowTo.adoc %}
+{% include_relative HowTo.md %}
 
 ## Contact
 Having trouble? [Contact Secplugs ](https://secplugs.com/contacts)
