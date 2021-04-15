@@ -7,8 +7,8 @@
     "created_by":"BenignB@secplugs.com",
     "description":"A ready to install second opinion lazy on access scanner to scan for malware inside Linux systems",
     "content":{
-      "summary":"@.secplugs/plugins/linux_file_watcher/summary.html",
-      "detail":"@.secplugs/plugins/linux_file_watcher/detail.html"
+      "summary":"@docs/linux/summary.html",
+      "detail":"@docs/linux/detail.html"
     },
     "images":{
       "small":"@.secplugs/plugins/linux_file_watcher/small_image.png",
@@ -18,7 +18,8 @@
       ]
     },
     "links":{
-      "github":"https://github.com/SecPlugs/Container-Plugins"
+      "github":"https://github.com/SecPlugs/Container-Plugins",
+      "more_info" : "https://secplugs.github.io/Container-Plugins/docs/linux"
     }
   },
   {
@@ -29,8 +30,8 @@
     "created_by":"BenignB@secplugs.com",
     "description":"A docker ready second opinion lazy on access scanner to scan for malware inside docker containers",
     "content":{
-      "summary":"@.secplugs/plugins/docker_file_watcher/summary.html",
-      "detail":"@.secplugs/plugins/docker_file_watcher/detail.html"
+      "summary":"@docs/containers/summary.html",
+      "detail":"@docs/containers/detail.html"
     },
     "images":{
       "small":"@.secplugs/plugins/docker_file_watcher/small_image.png",
@@ -40,7 +41,8 @@
       ]
     },
     "links":{
-      "github":"https://github.com/SecPlugs/Container-Plugins"
+      "github":"https://github.com/SecPlugs/Container-Plugins",
+      "more_info" : "https://secplugs.github.io/Container-Plugins/docs/containers"
     }
   }
 ]
