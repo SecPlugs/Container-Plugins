@@ -18,7 +18,8 @@
       ]
     },
     "links":{
-      "github":"https://github.com/SecPlugs/Container-Plugins"
+      "github":"https://github.com/SecPlugs/Container-Plugins",
+      "more_info" : "https://secplugs.github.io/Container-Plugins/docs/linux"
     }
   },
   {
@@ -40,7 +41,8 @@
       ]
     },
     "links":{
-      "github":"https://github.com/SecPlugs/Container-Plugins"
+      "github":"https://github.com/SecPlugs/Container-Plugins",
+      "more_info" : "https://secplugs.github.io/Container-Plugins/docs/containers"
     }
   }
 ]
