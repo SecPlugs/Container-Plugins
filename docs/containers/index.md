@@ -1,11 +1,11 @@
 ---
-title: Secplugs Dicker File Watcher
+title: Secplugs Docker File Watcher
 ---
 ## Summary
-summary for containers goes here 
+{% include_relative summary.html %}
 
 ## About
-
+{% include_relative detail.html %}
 
 ## Get Started
 
