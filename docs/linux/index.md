@@ -7,10 +7,8 @@ title: Secplugs Linux File Watcher
 ## About
 {% include_relative detail.html %}
 
-## Get Started
-
-## Usage
-
+## How To Get Started
+{% include_relative HowTo.md %}
 
 ## Contact
 Having trouble? [Contact Secplugs ](https://secplugs.com/contacts)
