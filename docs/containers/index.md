@@ -7,9 +7,7 @@ title: Secplugs Docker File Watcher
 ## About
 {% include_relative detail.html %}
 
-## Get Started
-
-## How To
+## How To Get Started
 {% include_relative HowTo.md %}
 
 ## Contact
