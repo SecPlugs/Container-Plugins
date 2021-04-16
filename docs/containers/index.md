@@ -1,6 +1,6 @@
 ---
 title: Secplugs Docker File Watcher
-site.title: 
+site.title: Secplugs Docker File Watcher
 ---
 ## Summary
 {% include_relative _summary.md %}
