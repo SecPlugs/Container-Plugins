@@ -2,6 +2,14 @@
 
 The Docker File Watcher is a inotify-based daemon that starts at system start up and keeps running as a system service, via systemd on most distributions.
 
+#### What are the features?
+
+- __Lazy On Access Scanning__ - Monitor file access and automatically submit files for analysis
+- __Out of Box Defaults__ - Comes with default API keys and configuation so it works out of the box
+- __Configurable Watch Directories__ - Configure which directores to watch for activity
+- __Infected File Deletion__ - Delete infected files
+- __Secplugs Portal__ - With a registered API key you can access all the core Secplugs features via the portal.
+
 #### How does it work?
 
 At startup, the daemon reads the configuration file and initialises the process with all the directories listed in the configuration. The daemon monitors for files created in or moved into the configured directories. When it detects a file, the file is sent to secplugs for a score based scan. If this scan detects this file to be malicious, the file is removed from the filesystem.
