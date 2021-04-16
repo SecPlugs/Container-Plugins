@@ -50,7 +50,7 @@ dnf update && dnf install secplugs-linux-oas-plugin
 The only configuration that is needed for the secplugs-linux-oas-plugin is the
 `/etc/secplugs/config.json` file. For most common use cases, the only configuration that would be needed is the `watchers` property which tells the plugin which folders to monitor. The default configuration works for most common deployments
 
-```console
+```json
 {
     "watchers": [
         "/lib",

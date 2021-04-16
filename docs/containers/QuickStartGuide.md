@@ -79,12 +79,13 @@ The only configuration that is needed for the secplugs-container-plugin is the
 
 ```json
 {
-    "watchers": [
-        "/etc",
-        "/lib",
-        "/lib64",
-        "/var/lib"
-    ]
+  "watchers": [
+    "/lib",
+    "/lib64",
+    "/var/lib",
+    "/etc/"
+  ],
+  "api_key": "secplugs-api-key-from-portal"
 }
 ```
 
