@@ -2,13 +2,13 @@
 title: Secplugs Docker File Watcher
 ---
 ## Summary
-{% include_relative summary.html %}
+{% include_relative _summary.md %}
 
 ## About
-{% include_relative detail.html %}
+{% include_relative _detail.md %}
 
-## How To Get Started
-{% include_relative HowTo.md %}
+## Quick start
+{% include_relative QuickStartGuide.md %}
 
 ## Contact
 Having trouble? [Contact Secplugs ](https://secplugs.com/contacts)

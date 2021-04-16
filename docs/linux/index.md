@@ -7,7 +7,7 @@ title: Secplugs Linux File Watcher
 ## About
 {% include_relative _detail.md %}
 
-## Quick Start Guide
+## Quick Start
 {% include_relative QuickStartGuide.md %}
 
 ## Contact
