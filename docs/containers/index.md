@@ -1,5 +1,4 @@
 ---
-layout: none
 title: Secplugs Docker File Watcher
 site.title: Secplugs Docker File Watcher
 ---
