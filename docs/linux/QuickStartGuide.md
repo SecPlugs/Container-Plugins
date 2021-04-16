@@ -1,5 +1,5 @@
 
-A brief documentation on how to use the secplugs-linux-oas-plugin
+A brief documentation on how to install and use the secplugs-linux-oas-plugin
 
 ### Overview
 
@@ -53,10 +53,12 @@ The only configuration that is needed for the secplugs-linux-oas-plugin is the
 ```console
 {
     "watchers": [
-        "/etc",
         "/lib",
         "/lib64",
-        "/var/lib"
-    ]
+        "/var/lib",
+        "/etc/"
+    ],
+      "vendor": "<preferred vendor from vendor list in portal>",
+      "api_key": "secplugs-api-key-from-portal"
 }
 ```
