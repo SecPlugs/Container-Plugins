@@ -1,6 +1,15 @@
 ---
 title: Secplugs Linux File Watcher
 ---
+
+<!-- 
+Force page title 
+https://stackoverflow.com/questions/49060619/use-per-page-title-with-a-jekyll-theme 
+-->
+<script>
+    document.getElementsByTagName("h1").item(0).innerText = "{{ page.title }}";
+</script>
+
 ## Summary
 {% include_relative _summary.md %}
 

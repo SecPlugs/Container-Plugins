@@ -13,7 +13,7 @@ plugin can be used from all the supported Linux distributions
 
 The following commands will install the secplugs-linux-oas-plugin
 
-```console
+```sh
 apt install software-properties-common && apt update
 apt-add-repository -y ppa:secplugs/ppa
 apt update && apt install secplugs-linux-oas-plugin
@@ -23,7 +23,7 @@ The above commands add the secplugs ppa repository to the list of repositories. 
 
 Likewise, for Debian, the following commands can be used
 
-```console
+```sh
 apt install software-properties-common && apt update
 apt-key adv --keyserver <keyserver> --recv <key> && apt-add-repository -y 'deb https://packages.secplugs.com/debian/ stable main'
 apt update && apt install secplugs-linux-oas-plugin
@@ -38,7 +38,7 @@ background as a systemd service
 
 The following commands will install the plugin on Fedora/CentOS and other RPM based Linux distributions.
 
-```console
+```sh
 wget -O /etc/yum.repos.d/secplugs.repo https://packages.secplugs.com/fedora/secplugs.repo
 echo <SHA> /etc/yum.repos.d/secplugs.repo | sha256sum --check --status
 dnf update && dnf install secplugs-linux-oas-plugin
