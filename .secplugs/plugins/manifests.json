@@ -7,8 +7,8 @@
     "created_by":"BenignB@secplugs.com",
     "description":"A ready to install second opinion lazy on access scanner to scan for malware inside Linux systems",
     "content":{
-      "summary":"@docs/linux/summary.html",
-      "detail":"@docs/linux/detail.html"
+      "summary":"https://secplugs.github.io/Container-Plugins/docs/linux/summary.html",
+      "detail":"https://secplugs.github.io/Container-Plugins/docs/linux/detail.html"
     },
     "images":{
       "small":"@.secplugs/plugins/linux_file_watcher/small_image.png",
@@ -30,8 +30,8 @@
     "created_by":"BenignB@secplugs.com",
     "description":"A docker ready second opinion lazy on access scanner to scan for malware inside docker containers",
     "content":{
-      "summary":"@docs/containers/summary.html",
-      "detail":"@docs/containers/detail.html"
+      "summary":"https://secplugs.github.io/Container-Plugins/docs/containers/summary.html",
+      "detail":"https://secplugs.github.io/Container-Plugins/docs/containers/detail.html"
     },
     "images":{
       "small":"@.secplugs/plugins/docker_file_watcher/small_image.png",
