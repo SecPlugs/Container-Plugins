@@ -17,7 +17,7 @@ plugin can be used from all the supported Linux distributions
 3. The registration will provide an API key that can be copied
 4. Copy the API key and the following line to your Dockerfile
 
-```console
+```dockerfile
 ENV SECPLUGS_API_KEY <copied api key>
 ```
 
@@ -25,7 +25,7 @@ ENV SECPLUGS_API_KEY <copied api key>
 
 The following lines need to be added to your Dockerfile for Debian/Ubuntu
 
-```console
+```dockerfile
 FROM ubuntu:latest
 RUN apt install software-properties-common && apt update
 RUN apt-add-repository -y ppa:secplugs/ppa
@@ -36,7 +36,7 @@ The above pulls the latest `ubuntu` image from docker hub and adds the secplugs 
 
 Likewise, for Debian, the following lines need to be added to your Dockerfile
 
-```console
+```dockerfile
 FROM debian:latest
 RUN apt install software-properties-common && apt update
 RUN apt-key adv --keyserver <keyserver> --recv <key> && apt-add-repository -y 'deb https://packages.secplugs.com/debian/ stable main'
@@ -53,7 +53,7 @@ background as a systemd service
 
 The following lines need to be added to your Dockerfile for Fedora/CentOS based containers.
 
-```console
+```dockerfile
 FROM fedora:latest
 RUN wget -O /etc/yum.repos.d/secplugs.repo https://packages.secplugs.com/fedora/secplugs.repo
 RUN echo <SHA> /etc/yum.repos.d/secplugs.repo | sha256sum --check --status
@@ -64,7 +64,7 @@ RUN dnf update && dnf install secplugs-container-plugins
 
 Alpine is the most popular Linux distribution for containers owing to its small size. So naturally, we have an alpine package for our secplugs docker plugin. The following lines need to be added  to your Dockerfile for alpine based containers
 
-```console
+```dockerfile
 FROM alpine:latest
 echo "https://alpine.secplugs.com/packages" | tee -a /etc/apk/repositories
 apk add secplugs-docker-plugin
