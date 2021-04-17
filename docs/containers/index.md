@@ -1,7 +1,9 @@
 ---
 title: Secplugs Docker File Watcher
 ---
-
+![CICD](https://github.com/SecPlugs/Container-Plugins/workflows/CICD/badge.svg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![Daily Test](https://github.com/SecPlugs/Container-Plugins/workflows/DailyTest/badge.svg)
 <!-- 
 Force page title 
 https://stackoverflow.com/questions/49060619/use-per-page-title-with-a-jekyll-theme 
