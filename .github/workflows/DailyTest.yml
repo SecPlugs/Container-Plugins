@@ -6,7 +6,7 @@ name: DailyTest
 
 on:
   schedule:
-    - cron:  '7 4 * * *'
+    - cron:  '2 4 * * *'
     
   workflow_dispatch:
   
