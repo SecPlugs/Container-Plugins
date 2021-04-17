@@ -5,7 +5,7 @@
     "cfgtypes":"linux_file_watcher_dirs",
     "title":"Linux File Watcher",
     "created_by":"BenignB@secplugs.com",
-    "description":"A ready to install second opinion lazy on access scanner for Linux systems.",
+    "description":"A ready to install, second opinion, on access scanner for Linux systems.",
     "content":{
       "summary":"https://secplugs.github.io/Container-Plugins/docs/linux/summary.html",
       "detail":"https://secplugs.github.io/Container-Plugins/docs/linux/detail.html"
@@ -28,7 +28,7 @@
     "cfgtypes":"linux_file_watcher_dirs",
     "title":"Docker File Watcher",
     "created_by":"BenignB@secplugs.com",
-    "description":"A ready to integrate second opinion lazy on access scanner for Docker containers.",
+    "description":"A ready to integrate, second opinion, on access scanner for Docker containers.",
     "content":{
       "summary":"https://secplugs.github.io/Container-Plugins/docs/containers/summary.html",
       "detail":"https://secplugs.github.io/Container-Plugins/docs/containers/detail.html"
