@@ -1,5 +1,6 @@
 ---
 title: Secplugs Linux File Watcher
+description: A ready to install, second opinion, on access scanner for Linux systems.
 ---
 ![CICD](https://github.com/SecPlugs/Container-Plugins/workflows/CICD/badge.svg)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
