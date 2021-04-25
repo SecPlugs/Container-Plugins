@@ -1,6 +1,6 @@
 To see the documentation for a particular plugins choose link below:
 
-- [Docker File Watcher](https://secplugs.github.io/Container-Plugins/docs/containers/)  
-- [Linux File Watcher](https://secplugs.github.io/Container-Plugins/docs/linux/)  
+- [Docker File Watcher](https://docs.secplugs.com/Container-Plugins/docs/containers/)  
+- [Linux File Watcher](https://docs.secplugs.com/Container-Plugins/docs/linux/)  
 
 
