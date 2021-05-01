@@ -12,6 +12,6 @@ cd dockerplugin-0.1.0
 dh_make -s -y -f ../$SRC_TAR
 cp -r $PKGDIR/template/* debian/
 dpkg-buildpackage -uc -us
-cp $PKGDIR/*.{deb,dsc,changes} $CWD
+cp $PKGDIR/*.{deb,dsc,changes,buildinfo} $CWD
 cd $CWD
 rm -rf $PKGDIR
