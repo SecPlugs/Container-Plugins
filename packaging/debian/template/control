@@ -1,0 +1,15 @@
+Source: dockerplugin
+Section: contrib
+Priority: optional
+Maintainer: Secplugs CICD <secplugs@secplugs.com>
+Build-Depends: debhelper-compat (= 12), cmake, libpoco-dev
+Standards-Version: 4.4.1
+Homepage: https://secplugs.com
+
+Package: dockerplugin
+Architecture: any
+Depends:  libpocoutil62, libpocojson6, libpocofoundation62, libpoconet62, libpoconetssl62
+Description: The secplugs plugin for Ubuntu
+ Secplugs offers an innovative market place for security solutions
+ from which the best vendor for each threat vector can be chosen by
+ customers to scan and secure their critical machines.

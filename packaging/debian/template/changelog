@@ -1,0 +1,5 @@
+dockerplugin (0.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #3)
+
+ -- Secplugs CICD <secplugs@secplugs.com>  Sun, 02 May 2021 00:57:59 +0530

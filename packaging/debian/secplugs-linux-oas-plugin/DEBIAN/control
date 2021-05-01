@@ -1,8 +1,0 @@
-Package: secplugs-container-plugin
-Version: 0.1-1
-Section: base
-Priority: optional
-Architecture: amd64
-Depends: libpocoutil60, libpocojson60, libpocofoundation60, libpoconet60, libpoconetssl60
-Maintainer: secplugs@secplugs.com
-Description: The secplugs plugin for Docker containers
