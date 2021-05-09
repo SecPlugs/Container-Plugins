@@ -1,6 +1,8 @@
 #!/bin/bash
 
 PKGDIR=$(mktemp -d /tmp/pkgXXXX)
+DEFAULT_DISTRO="debian"
+DISTRO=${1:-$DEFAULT_DISTRO}
 MYPATH=$(dirname $0)
 VERSION=$(cat $MYPATH/version)
 SRC_TAR=dockerplugin-${VERSION}.tar.gz
@@ -10,7 +12,7 @@ test -d $BUILDDIR || mkdir $BUILDDIR
 rm -rf $BUILDDIR/*
 
 cp $SRC_TAR $PKGDIR
-cp -r packaging/debian/template $PKGDIR
+cp -r packaging/$DISTRO/template $PKGDIR
 cd $PKGDIR
 tar xf $SRC_TAR
 cd dockerplugin-${VERSION}
