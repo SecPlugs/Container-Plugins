@@ -8,7 +8,7 @@ Homepage: https://secplugs.com
 
 Package: dockerplugin
 Architecture: any
-Depends:  libpocoutil62, libpocojson6, libpocofoundation62, libpoconet62, libpoconetssl62
+Depends:  libpocoutil60, libpocojson60, libpocofoundation60, libpoconet60, libpoconetssl60
 Description: The secplugs plugin for Ubuntu
  Secplugs offers an innovative market place for security solutions
  from which the best vendor for each threat vector can be chosen by

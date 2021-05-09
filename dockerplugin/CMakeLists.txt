@@ -27,6 +27,10 @@ install(TARGETS dockerplugin secplugs-common secplugs-rest
 
 install(FILES config.json
   DESTINATION /etc/secplugs/)
+
+install(FILES dockerplugin.service
+  DESTINATION /lib/systemd/system)
+
 # add_custom_target(deb ALL
 #         WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/../packaging/debian/
 #         COMMAND echo ${PROJECT_SOURCE_DIR}/../packaging/debian/

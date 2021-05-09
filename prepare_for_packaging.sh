@@ -2,10 +2,10 @@
 
 DIR=$(mktemp -d /tmp/dockerpluginXXXX)
 MYPATH=$(dirname $0)
-VERSION=0.1.0
+VERSION=$(cat $MYPATH/version)
 SRC=$MYPATH/dockerplugin
 DST=dockerplugin-${VERSION}
-SRCTAR=dockerplugin-0.1.0.tar.gz
+SRCTAR=dockerplugin-${VERSION}.tar.gz
 
 cp -a  $SRC $DIR/$DST
 CWD=$(pwd)

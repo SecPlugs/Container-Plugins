@@ -17,6 +17,12 @@ set -e
 # for details, see https://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
+configure()
+{
+    systemctl enable dockerplugin.service
+    systemctl start dockerplugin.service
+}
+
 
 case "$1" in
     configure)
