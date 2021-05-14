@@ -3,7 +3,7 @@ Description=Secplugs OnAccess Scan daemon
 
 [Service]
 ExecStart=/usr/bin/dockerplugin --daemon -c /etc/secplugs/config.json
-StandardOutput=syslog
+Type=forking
 
 [Install]
 WantedBy=multi-user.target
