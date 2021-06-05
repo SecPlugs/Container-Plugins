@@ -24,7 +24,8 @@ namespace secplugs {
         [[nodiscard]] inline std::vector<std::string> get_watchers() const { return watchers; }
         [[nodiscard]] inline std::string get_client_cert() const { return client_cert; }
         [[nodiscard]] inline std::string get_scheme() const {return scheme;}
-
+        inline void get_proxy_config(std::map<std::string, std::string> & proxy) const {proxy = this->proxy;}
+        [[nodiscard]] inline bool has_proxy() const {return proxy.size() != 0;}
     private:
         std::string config_file;
         std::string api_key;
