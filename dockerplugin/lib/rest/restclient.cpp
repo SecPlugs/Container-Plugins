@@ -1,4 +1,5 @@
 #include "restclient.h"
+#include <cstddef>
 
 namespace secplugs {
 
@@ -67,6 +68,19 @@ namespace secplugs {
         uri.addQueryParameter("sha256", sha256);
         uri.addQueryParameter("vendorcfg", "hybrid_analysis");
         Poco::Net::HTTPSClientSession sp_session(cfg.get_base_url(), 443, ctxt);
+        Poco::Net::HTTPClientSession::ProxyConfig proxyCfg;
+        if (cfg.has_proxy()) {
+          std::map<std::string,std::string> pxy;
+          cfg.get_proxy_config(pxy);
+          proxyCfg.host = pxy["proxyhost"];
+          proxyCfg.port = std::stoi(pxy["proxyport"]);
+          if (pxy.find("proxyuser") != pxy.end()) {
+            proxyCfg.username = pxy["proxyuser"];
+            proxyCfg.password = pxy["proxypassword"];
+          }
+          sp_session.setGlobalProxyConfig(proxyCfg);
+        }
+
         Poco::Net::HTTPRequest req(Poco::Net::HTTPRequest::HTTP_GET, uri.toString());
         req.setHost(cfg.get_base_url());
         req.add("x-api-key", cfg.get_api_key());

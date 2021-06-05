@@ -1,0 +1,9 @@
+[Unit]
+Description=The Secplugs Linux OAS Plugin
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/dockerplugin --daemon -c /etc/secplugs/config.json
+
+[Install]
+WantedBy=multi-user.target

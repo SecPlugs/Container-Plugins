@@ -1,0 +1,8 @@
+dockerplugin (0.1.4-1ubuntu1) stable; urgency=medium
+
+  * Initial release (Closes: #3)
+  * Fix packaging (Closes: #3)
+  * Fix systemd startup (Closes: #5)
+
+ -- Secplugs CICD <secplugs@secplugs.com>  Fri 14 May 2021 10:26:55 AM +0530
+
