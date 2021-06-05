@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 project(secplugs_common)
 
 set(CMAKE_CXX_STANDARD 17)
+find_package(OpenSSL REQUIRED)
 find_package(Poco REQUIRED Foundation Net NetSSL JSON Util)
 add_library(secplugs-rest SHARED
         lib/rest/restclient.cpp lib/rest/restclient.h)
