@@ -8,7 +8,7 @@ The Linux File Watcher is a inotify-based daemon that starts at system start up 
 - __Out of Box Defaults__ - Comes with default API keys and configuation so it works out of the box
 - __Configurable Watch Directories__ - Configure which directories to watch for activity
 - __Infected File Deletion__ - Delete infected files
-- __Secplugs Portal__ - With a registered API key you can access all the core Secplugs features via the portal.
+- __{brand-name} Portal__ - With a registered API key you can access all the core Secplugs features via the portal.
 
 #### How does it work?
 

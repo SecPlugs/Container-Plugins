@@ -1,26 +1,15 @@
 ---
-title: Secplugs Docker File Watcher
-description: A ready to integrate, second opinion, on access scanner for Docker containers.
+layout: none
 ---
-![CICD](https://github.com/SecPlugs/Container-Plugins/workflows/CICD/badge.svg)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-![Daily Test](https://github.com/SecPlugs/Container-Plugins/workflows/DailyTest/badge.svg)
-<!-- 
-Force page title 
-https://stackoverflow.com/questions/49060619/use-per-page-title-with-a-jekyll-theme 
--->
-<script>
-    document.getElementsByTagName("h1").item(0).innerText = "{{ page.title }}";
-</script>
-
-## Summary
-{% include_relative _summary.md %}
 
 ## About
-{% include_relative _detail.md %}
+Designed to be built into docker containers, this plugin will monitor and scan file system activity in locations that you can specify.
+
+With the code up on GitHub the plugin is readly extensible but can also be used out of the box with default configuration suitable for common scenarios.
+
 
 ## Quick start
 {% include_relative QuickStartGuide.md %}
 
 ## Contact
-Having trouble? [Contact Secplugs ](https://secplugs.com/contacts)
+Having trouble? [Contact {brand-name} ](https://{brand-root-domain}/contacts)

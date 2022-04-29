@@ -1,2 +1,4 @@
-theme: jekyll-theme-midnight
-google_analytics: G-4MB8SZYEBR
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true

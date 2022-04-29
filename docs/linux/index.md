@@ -23,4 +23,4 @@ https://stackoverflow.com/questions/49060619/use-per-page-title-with-a-jekyll-th
 {% include_relative QuickStartGuide.md %}
 
 ## Contact
-Having trouble? [Contact Secplugs ](https://secplugs.com/contacts)
+Having trouble? [Contact {brand-name} ](https://{brand-root-domain}/contacts)

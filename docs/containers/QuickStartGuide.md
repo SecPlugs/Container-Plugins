@@ -10,7 +10,7 @@ the requirements of a container environment in mind - small binary size, a
 very log memory footprint and quick scan times. This document shows how this
 plugin can be used from all the supported Linux distributions
 
-### Plugin Registration
+### Registration
 
 1. Create a Dockerfile that installs the container-plugin. Some common distributions are explained below
 2. From {sp} console Plugin Management page, register your `container-plugin`
